@@ -1,7 +1,7 @@
-TD1:
+# TD1:
 
 
-1) La méthode GET peut être utilisé pour la personnalisation d'une page WEB (favoris, etc), elle sert aussi pour stocker les données qui permettent à un utilisateur de les retrouver quand il a besoin, mais par contre elle ne chiffre pas les données donc les données dans l'URL sont rendus visibles. La méthode est souvent utilisé pour recevoir les réponses serveur.
+### 1) La méthode GET peut être utilisé pour la personnalisation d'une page WEB (favoris, etc), elle sert aussi pour stocker les données qui permettent à un utilisateur de les retrouver quand il a besoin, mais par contre elle ne chiffre pas les données donc les données dans l'URL sont rendus visibles. La méthode est souvent utilisé pour recevoir les réponses serveur.
    La méthode POST est utilisé pour la confidentialité des données et sont donc invisibles dans l'URL (les données personnelles sont envoyés par des formulaires ou autres). Cette méthode est utilisé pour envoyé les données vers un serveur.
 
 2) Voir le fichier PNG
