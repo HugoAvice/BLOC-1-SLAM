@@ -14,11 +14,11 @@
 
 **6)** Il existe 5 familles de codes de réponse HTTP : 
 
-   1- Réponses informatives qui ont pour but d'informer l'utilisateur d'une réponse à venir du serveur, de répondre aux en-têtes upgrade afin d'informer du protocole sur le serveur, permet aussi de répondre aux en-         êtes link qui permettent de précharger en attendant la réponse serveur, exemple: 100 Continue
-   2- Réponses de succès qui permet d'indiquer que la requête a été traitée avec succès, la réussite de la requête variant en fonction de la méthode HTTP employé (GET, POST...), exemple: 200 OK
-   3- Réponses de redirection qui indiquent que le client doit effectuer une action supplémentaire pour compléter la requête, exemple 301 Moved Permanently.
-   4- Réponses d'erreur - qui indique qu'il y a une erreur dans la requête client ou qu'il n'a pas les permissions, ce qui empêche le serveur de la traiter avec succès, exemple 404 Not Found
-   5- Réponses d'erreur côté serveur qui dans le cas d'une situation qu'il ne peut pas traiter, exemple 500 Internal Server Error
+   - Réponses informatives qui ont pour but d'informer l'utilisateur d'une réponse à venir du serveur, de répondre aux en-têtes upgrade afin d'informer du protocole sur le serveur, permet aussi de répondre aux en-         êtes link qui permettent de précharger en attendant la réponse serveur, exemple: 100 Continue
+   - Réponses de succès qui permet d'indiquer que la requête a été traitée avec succès, la réussite de la requête variant en fonction de la méthode HTTP employé (GET, POST...), exemple: 200 OK
+   - Réponses de redirection qui indiquent que le client doit effectuer une action supplémentaire pour compléter la requête, exemple 301 Moved Permanently.
+   - Réponses d'erreur - qui indique qu'il y a une erreur dans la requête client ou qu'il n'a pas les permissions, ce qui empêche le serveur de la traiter avec succès, exemple 404 Not Found
+   - Réponses d'erreur côté serveur qui dans le cas d'une situation qu'il ne peut pas traiter, exemple 500 Internal Server Error
 
 **7)** Le principe de la négociation entre le client et le serveur est de convenir de la meilleure représentation des ressources comme une version HTML ou XML et autres en fonction de ce que le client apprécie mais aussi des capacités du serveur. Le serveur utilise ensuite l'URL pour choisir parmi les différentes représentations, et la renvoie vers le client avec une URL.
    Il existe deux mécanismes pour choisir la représentation : 
