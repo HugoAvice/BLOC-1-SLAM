@@ -3,7 +3,12 @@
 **1)** La méthode GET peut être utilisé pour la personnalisation d'une page WEB (favoris, etc), elle sert aussi pour stocker les données qui permettent à un utilisateur de les retrouver quand il a besoin, mais par contre elle ne chiffre pas les données donc les données dans l'URL sont rendus visibles. La méthode est souvent utilisé pour recevoir les réponses serveur.
    La méthode POST est utilisé pour la confidentialité des données et sont donc invisibles dans l'URL (les données personnelles sont envoyés par des formulaires ou autres). Cette méthode est utilisé pour envoyé les données vers un serveur.
 
-**2)** Voir le fichier PNG
+**2)**  Texte normal suivi d’un [color=#26B260]texte coloré en vert[/color] dans un paragraphe.
+       |                           | GET                      | POST            |
+       |---------------------------|--------------------------|-----------------|
+       | Visibilité                | Visible                  | Invisible       |
+       | Données                   | Stockés sans chiffrement | Chiffrés        |
+       | Transmission  des données | Recevoir du serveur      | Vers un serveur |
 
 **3)** Le protocole HTTP est extensible car il transite par TCP ou TLS et permet de récupérer en réponse beaucoup de sorte de données comme des images, vidéos, documents, renvois de formulaires HTML vers serveurs.
    Le protocole HTTP est extensible car il permet aussi d'intégrer des en-têtes qui offrent différentes transmissions comme des en-têtes général, en-têtes des requêtes, en-têtes des réponses, en-têtes d'entités.
