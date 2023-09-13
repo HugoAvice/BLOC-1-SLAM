@@ -25,3 +25,5 @@
    - Les en-têtes HTTP spécifiques qui sont envoyés par les clients.
    - Les codes de réponse HTTP (comme Unsupported Media Type) qui sont envoyés par le serveur et utilisés comme mécanisme de recours.
 
+**10)** VOIR PNG TABLEAU EN-TETE
+
