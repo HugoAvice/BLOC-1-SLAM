@@ -7,4 +7,7 @@
 
 3) HTTP est extensible car il est souvent mis à jour.
 
-4) HTTP est un protocole sans état
+4) HTTP est un protocole sans état car il concerne uniquement le serveur.
+
+5)
+
