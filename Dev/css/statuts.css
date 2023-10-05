@@ -1,0 +1,21 @@
+.rouge {
+    color:red;
+}
+
+.rouge p.small-elm: {
+    font-size: 5px;
+}
+
+#docRef{
+    color:green;
+    text-transform: uppercase;
+}
+.docRef::after{
+    content: "reference du document";
+    color: blue;
+    font-size: 5px
+}
+
+.docRef.hover{
+    font-weight: bolder;
+}
