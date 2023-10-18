@@ -77,4 +77,39 @@ body {
     text-align: center;
     font-size: 8px;
 }
-  
+.mini-box1,
+.mini-box2,
+.mini-box3,
+.mini-box4 {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.mini-box1 {
+    left: -15%;
+}
+
+.mini-box2 {
+    left: -14%; /* Ajusté la position à 40% pour rester aligné avec les autres */
+}
+
+.mini-box3 {
+    left: -13%; /* Ajusté la position à 70% pour rester aligné avec les autres */
+}
+
+.mini-box4 {
+    left: -12%; /* Ajusté la position à 100% pour rester aligné avec les autres */
+}
+.main {
+    background-image: url("./../image/df-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Change background size to cover the entire page */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+    background-color: gray;
+    position: relative;
+}
